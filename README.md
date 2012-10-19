@@ -9,6 +9,12 @@ You can find tutorial and user's guide at [Leo-editor home page](http://webpages
 
 In fact, this short faq is my second iteration study notes of Leo-editor ;-)
 
+I'll give thanks to [Edward K. Ream], [Terry Brown], [Ville M. Vainio] ... who help me to understand Leo-editor features.
+
+[Edward K. Ream]: http://webpages.charter.net/edreamleo/ekr.html
+[Terry Brown]: https://plus.google.com/116859937287332241707
+[Ville M. Vainio]: https://plus.google.com/103097156557482112329/
+
 ***
 
 * [Basic Concepts](#basic-concepts)
@@ -25,7 +31,7 @@ In fact, this short faq is my second iteration study notes of Leo-editor ;-)
 1. Q: the UNL (Uniform Node Location), the path from the top of the outline to the selected node, will be showed at the status area. 
 but, how to use UNL? or, this message is not important, only prompt the user where he is?
 
-> A1: [Terry Brown]: They are useful as bookmarks.  You can right-click select all / copy
+> A1: They are useful as bookmarks.  You can right-click select all / copy
 > them, then paste them into a node, as the first line.  Make the
 > headline of the node something like "@url link to priority items", then
 > when you double click that node, Leo will jump to the place where you
@@ -38,13 +44,13 @@ but, how to use UNL? or, this message is not important, only prompt the user whe
 1. A red vertical bar denote the node is marked, but when the node need marked?
 could you give me examples? thanks!
 
-> A1: [Ville M. Vainio] One use case (that I personally use) is the clone-marked command. There are many others
+> A1: One use case (that I personally use) is the clone-marked command. There are many others
 
 > A2: Thanks.
 > I tried this command(clone-marked). This just like I choose multiple nodes and clone them at once.
 > The marked function like ctrl+click to choose multiples nodes, and "unmark all" means release ctrl key.
 
-> A3: [Edward K. Ream] Some more commands related to marks:
+> A3: Some more commands related to marks:
 > 
 > - unmark-all (c.unmarkAll)
 > - move-marked
@@ -63,14 +69,14 @@ could you give me examples? thanks!
 
 > A1: If we change one file outside, and then want to change it in leo, we can right click the node, choose "refresh from disk", then we can change it in leo, save...
 
-> A2: [Edward K. Ream] If we change several files outside, and after that, it would be trouble to refresh them one by one, in this situation, close leo file, "reload it again" is the easiest.
+> A2: If we change several files outside, and after that, it would be trouble to refresh them one by one, in this situation, close leo file, "reload it again" is the easiest.
 > Please see the following FAQ entry for several tricks related ot
 > [reloading Leo](http://webpages.charter.net/edreamleo/FAQ.html#how-can-i-use-leo-to-develop-leo-itself)
 
 ## Export to External Files
 1. Q: The obvious way to write an external file would be to write the @file node itself followed by all the descendant nodes in outline order. Leo export all descendant(refer to @file node) nodes to external files?
 
-> A1: [Edward K. Ream]No, if you reate an @file node, omit @others and @all and see what happens :-)  (You will get an error.) 
+> A1: No, if you reate an @file node, omit @others and @all and see what happens :-)  (You will get an error.) 
 > like:
 >>  errors writing: \<string-file\> 
 
@@ -81,10 +87,3 @@ could you give me examples? thanks!
 > has descendants but does not include them with @others.  This is so
 > descendant nodes can contain data.
 
-
-
-
-
-[Edward K. Ream]: http://webpages.charter.net/edreamleo/ekr.html
-[Terry Brown]: https://plus.google.com/116859937287332241707
-[Ville M. Vainio]: https://plus.google.com/103097156557482112329/
