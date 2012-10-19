@@ -49,8 +49,8 @@ could you give me examples? thanks!
 
 > A1: If we change one file outside, and then want to change it in leo, we can right click the node, choose "refresh from disk", then we can change it in leo, save...
 
-> A2: If we change several files outside, and after that, it would be trouble to refresh them one by one, in this situation, close leo file, "reload it again" is the easiest.
-> [Edward K. Ream]Please see the following FAQ entry for several tricks related ot
+> A2: [Edward K. Ream] If we change several files outside, and after that, it would be trouble to refresh them one by one, in this situation, close leo file, "reload it again" is the easiest.
+> Please see the following FAQ entry for several tricks related ot
 > [reloading Leo](http://webpages.charter.net/edreamleo/FAQ.html#how-can-i-use-leo-to-develop-leo-itself)
 
 
