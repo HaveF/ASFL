@@ -16,6 +16,7 @@ In fact, this short faq is my second iteration study notes of Leo-editor ;-)
 	* [Marked Node](#marked-node)
 * [Combine with Other Editor](#combine-with-other-editor)
 	* [Sync](#sync)
+	* [Export to External Files](#export-to-external-files)
 
 ***
 
@@ -43,6 +44,19 @@ could you give me examples? thanks!
 > I tried this command(clone-marked). This just like I choose multiple nodes and clone them at once.
 > The marked function like ctrl+click to choose multiples nodes, and "unmark all" means release ctrl key.
 
+> A3: [Edward K. Ream] Some more commands related to marks:
+> 
+> - unmark-all (c.unmarkAll)
+> - move-marked
+> - run-marked-unit-tests-externally
+> - run-marked-unit-tests-locally
+>
+> The settings box for the find/change commands contains two check
+> boxes: "mark changes" and "mark finds".  For example, if you enable
+> "mark finds", all nodes found during a search.  Now use the
+> move-marked or clone-marked commands to gather the found nodes.
+
+
 # Combine with Other Editor
 ## Sync
 1. Q: Sometimes, we use leo as project mangement tools, and edit the @file nodes or @shadow nodes outside. How to make sure these files are in sync state?
@@ -52,6 +66,22 @@ could you give me examples? thanks!
 > A2: [Edward K. Ream] If we change several files outside, and after that, it would be trouble to refresh them one by one, in this situation, close leo file, "reload it again" is the easiest.
 > Please see the following FAQ entry for several tricks related ot
 > [reloading Leo](http://webpages.charter.net/edreamleo/FAQ.html#how-can-i-use-leo-to-develop-leo-itself)
+
+## Export to External Files
+1. Q: The obvious way to write an external file would be to write the @file node itself followed by all the descendant nodes in outline order. Leo export all descendant(refer to @file node) nodes to external files?
+
+> A1: [Edward K. Ream]No, if you reate an @file node, omit @others and @all and see what happens :-)  (You will get an error.) 
+> like:
+>>  errors writing: \<string-file\> 
+
+>>  Orphan node
+
+> p.s. Leo handles scripts differently.  It is valid for a script not to
+> include descendant nodes.  That is, you won't get an error if a script
+> has descendants but does not include them with @others.  This is so
+> descendant nodes can contain data.
+
+
 
 
 
