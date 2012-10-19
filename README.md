@@ -5,7 +5,7 @@ A Short Faq for Leo-editor
 
 Leo-editor is a great tool. It was written by [Edward K. Ream](http://webpages.charter.net/edreamleo/ekr.html), and contributed by many other warmhearted man.
 
-You can tutorial and user's guide at [Leo-editor home page](http://webpages.charter.net/edreamleo/front.html).
+You can find tutorial and user's guide at [Leo-editor home page](http://webpages.charter.net/edreamleo/front.html).
 
 In fact, this short faq is my second iteration study notes of Leo-editor ;-)
 
