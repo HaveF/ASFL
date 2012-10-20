@@ -82,8 +82,21 @@ could you give me examples? thanks!
 
 >>  Orphan node
 
-> p.s. Leo handles scripts differently.  It is valid for a script not to
+> ps-1: Leo handles scripts differently.  It is valid for a script not to
 > include descendant nodes.  That is, you won't get an error if a script
 > has descendants but does not include them with @others.  This is so
 > descendant nodes can contain data.
+
+> ps-2 A: Can contain data?  but why I contain data there? If the data is big, it should be at a separate file. Smaller data? Belonging to script?
+> Could you give me a *real data example* which you are using?
+
+> ps-2 B: There are many examples in unitTest.leo.  There are several advantages
+> to using separate nodes for small (or not-so-small) data:
+
+> 1.  The data is associated with the script (possibly in an @test node).
+> 2.  There is no need for putting the data in a separate file.
+> 3.  Putting the data in a node often simplifies the script.
+
+> Take a look at unitTest.leo.  In general I do not like auxiliary
+> files, especially those connected with unit tests.
 
