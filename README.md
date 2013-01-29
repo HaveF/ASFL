@@ -1,7 +1,5 @@
-ASFL
-====
-
 A Short Faq for Leo-editor
+===========================
 
 Leo-editor is a great tool. It was written by [Edward K. Ream], and contributed by many other warmhearted man.
 
